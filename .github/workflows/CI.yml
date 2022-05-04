@@ -17,6 +17,6 @@ jobs:
     - name: Build the Docker image
       run: |
         echo ---Building and starting up docker---
-        docker docker-compose -f ./Project/docker-compose.yml -p testing
+        docker-compose -f ./Project/docker-compose.yml -p testing
         echo ---Containers up---
 

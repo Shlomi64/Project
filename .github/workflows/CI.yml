@@ -17,6 +17,6 @@ jobs:
     - name: Build the Docker image
       run: |
         echo ---Building and starting up docker---
-        docker-compose
+        docker-compose build
         echo ---Containers up---
 
